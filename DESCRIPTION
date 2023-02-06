@@ -1,0 +1,12 @@
+Package: dabayes
+Title: Convenience Functions for Bayesian Analysis
+Version: 0.1
+Authors@R: 
+    person("Dave", "Armstrong", , "davearmstrong.ps@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9358-2489"))
+Description: This package supports the Applied Bayesian Modeling course I teach in the Political Science department at Western University.  It contains mostly convenience functions for managing and summarising MCMC output.
+Imports: coda, dplyr, rlang, runjags
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
